@@ -1,0 +1,21 @@
+.welcome-img{
+	width: 400px;
+	height: 500px;
+}
+
+.mt-8 {
+	margin-top: 6.5rem!important	
+}
+.lead {
+	font-size: 1.10rem;
+	font-weight: 400;
+}
+
+.text-bold{
+	font-weight: bold;
+}
+
+.form-control:focus {
+	border-color: #be3131;
+	box-shadow: 0 0 0 0.2rem #be3131
+}
