@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <Nav/>
-    <Header/>
+    <Header>
+      <h6 slot="heading" class="intro-title mb-4 mt-4">Home</h6>
+    </Header>
     <Intro/>
     <Footer/>
   </div>
@@ -9,14 +10,16 @@
 
 <script>
 // @ is an alias to /src
-import Nav from '@/components/Nav.vue'
 import Header from '@/components/Header.vue'
 import Intro from '@/components/Intro.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
   components: {
-    Nav, Header, Intro, Footer
+    Header, Intro, Footer
+  },
+  created(){
+    document.title = 'Home | GQ Membership'
   }
 }
 </script>

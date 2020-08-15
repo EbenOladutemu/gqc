@@ -5,11 +5,12 @@
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4 mt-8">The Gentlemen Quintessence Membership Club</h1>
           <p class="intro-subtitle">
-            <span class="text-slider-items">The GQ Membership Club, Owo</span>
-            <strong class="text-slider"></strong>
+            <vue-typed-js :strings="['The GQ Membership', 'Owo']" :backSpeed="50" :loop="true">
+              <h1 class="typing"></h1>
+            </vue-typed-js>
           </p>
+          <slot name="heading"></slot>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
@@ -18,13 +19,28 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import { VueTypedJs } from 'vue-typed-js'
+ 
+Vue.use(VueTypedJs)
 export default {
-
+  components:{
+    VueTypedJs
+  }
 }
 </script>
 
 <style>
 .bg-image{
   background-image: url('./../assets/img/bg-1.jpg')
+}
+
+.typed-element{
+  justify-content: center;
+  color: white;
+}
+.typing{
+  color: #fff;
+  font-size: 4.5rem!important;
 }
 </style>

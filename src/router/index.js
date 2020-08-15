@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Club from '../views/ClubDirectory.vue'
+import Gallery from '../views/Gallery.vue'
+import Contact from '../views/Contact.vue'
 
 Vue.use(VueRouter)
 
@@ -9,6 +12,21 @@ Vue.use(VueRouter)
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/club-directory',
+    name: 'Club',
+    component: Club
+  },
+  {
+    path: '/photo-gallery',
+    name: 'Gallery',
+    component: Gallery
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
   },
   {
     path: '/about',
@@ -23,7 +41,14 @@ Vue.use(VueRouter)
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes,
+  scrollBehavior(to, from, savedPosition){
+    if (savedPosition){
+      return savedPosition
+    } else {
+      return { x: 0, y: 0 }
+    }
+  }
 })
 
 export default router

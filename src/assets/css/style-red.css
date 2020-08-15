@@ -266,6 +266,7 @@ a:hover {
   text-align: center;
   box-shadow: 0 0 0 10px #be3131;
   display: block;
+  padding-top: 5px;
 }
 
 /*------/ Owl Carousel /------*/
