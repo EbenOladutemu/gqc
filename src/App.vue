@@ -14,6 +14,48 @@ import Nav from '@/components/Nav'
 export default {
   components:{
     Nav
+  },
+  data(){
+    return{
+      siteUrl: 'https://gqc.netlify.app/',
+      siteLogo: 'https://gqc.netlify.app/logo.png',
+      siteName: 'Gentlemen Quintessence',
+      siteDescription: 'GQ Club, Owo',
+      siteKeywords: 'Gentlemen, quintessence, club'
+    }
+  },
+  metaInfo(){
+    return{
+      meta: [
+        { name: 'description', content: this.siteDescription },
+        { name: 'author', content: 'Eben Web Krafts' },
+        { name: 'keywords', content: this.siteKeywords },
+        { name: 'website', content: this.siteName },
+        { name: 'image', content: this.siteLogo },
+        // Schema.org for Google
+        { itemprop: 'name', content: this.siteName },
+        { itemprop: 'title', content: this.siteName },
+        { itemprop: 'description', content: this.siteDescription },
+        { itemprop: 'image', content: this.siteLogo },
+        // Twitter - Product (e-commerce)
+        // Open Graph general (Facebook, Pinterest & Google+)
+        { property: 'og:title', content: this.siteName },
+        { property: 'og:description', content: this.siteDescription },
+        { property: 'og:url', content: this.siteName },
+        { property: 'og:image', content: this.siteLogo },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:locale', content: 'en_NG' },
+        { property: 'og:site_name', content: this.siteName },
+        // Twitter
+        { name: 'twitter:card', content: 'summary' },
+        { name: 'twitter:url', content: this.siteUrl },
+        { name: 'twitter:title', content: this.siteName },
+        { name: 'twitter:description', content: this.siteDescription },
+        { name: 'twitter:image', content: this.siteLogo },
+        { name: 'twitter:site', content:  this.siteUrl },
+        { name: 'twitter:creator', content: '@EbenOladutemu' }
+      ]
+    }
   }
 }
 </script>

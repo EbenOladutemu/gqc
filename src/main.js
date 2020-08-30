@@ -10,6 +10,9 @@ import './assets/lib/lightbox/css/lightbox.min.css'
 import './assets/css/style-red.css'
 import './assets/css/gqc.css'
 
+import VueMeta from 'vue-meta'
+Vue.use(VueMeta);
+
 Vue.config.productionTip = false
 
 new Vue({

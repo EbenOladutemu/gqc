@@ -55,7 +55,7 @@ export default {
     Header, Footer
   },
   created(){
-    document.title = 'About Us | GQ Membership'
+    document.title = 'About Us | Gentlemen Quintessence'
   }
 }
 </script>

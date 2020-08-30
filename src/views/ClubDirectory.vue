@@ -111,7 +111,7 @@ export default {
     Header, Footer
   },
   created(){
-    document.title = 'Club Directory | GQ Membership'
+    document.title = 'Club Directory | Gentlemen Quintessence'
   }
 }
 </script>

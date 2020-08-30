@@ -23,7 +23,7 @@
             <div class="work-box">
               <a href="https://picsum.photos/500/500" data-lightbox="gallery-mf">
                 <div class="work-img">
-                  <img src="https://picsum.photos/500/500" alt="The GQ Memebership Club" class="img-fluid">
+                  <img src="https://picsum.photos/500/500" alt="Gentlemen Quintessence" class="img-fluid">
                 </div>
               </a>
             </div>
@@ -32,7 +32,7 @@
             <div class="work-box">
               <a href="https://picsum.photos/500/500" data-lightbox="gallery-mf">
                 <div class="work-img">
-                  <img src="https://picsum.photos/500/500" alt="The GQ Memebership Club" class="img-fluid">
+                  <img src="https://picsum.photos/500/500" alt="Gentlemen Quintessence" class="img-fluid">
                 </div>
               </a>
             </div>
@@ -41,7 +41,7 @@
             <div class="work-box">
               <a href="https://picsum.photos/500/500" data-lightbox="gallery-mf">
                 <div class="work-img">
-                  <img src="https://picsum.photos/500/500" alt="The GQ Memebership Club" class="img-fluid">
+                  <img src="https://picsum.photos/500/500" alt="Gentlemen Quintessence" class="img-fluid">
                 </div>
               </a>
             </div>
@@ -50,7 +50,7 @@
             <div class="work-box">
               <a href="https://picsum.photos/500/500" data-lightbox="gallery-mf">
                 <div class="work-img">
-                  <img src="https://picsum.photos/500/500" alt="The GQ Memebership Club" class="img-fluid">
+                  <img src="https://picsum.photos/500/500" alt="Gentlemen Quintessence" class="img-fluid">
                 </div>
               </a>
             </div>
@@ -59,7 +59,7 @@
             <div class="work-box">
               <a href="https://picsum.photos/500/500" data-lightbox="gallery-mf">
                 <div class="work-img">
-                  <img src="https://picsum.photos/500/500" alt="The GQ Memebership Club" class="img-fluid">
+                  <img src="https://picsum.photos/500/500" alt="Gentlemen Quintessence" class="img-fluid">
                 </div>
               </a>
             </div>
@@ -68,7 +68,7 @@
             <div class="work-box">
               <a href="https://picsum.photos/500/500" data-lightbox="gallery-mf">
                 <div class="work-img">
-                  <img src="https://picsum.photos/500/500" alt="The GQ Memebership Club" class="img-fluid">
+                  <img src="https://picsum.photos/500/500" alt="Gentlemen Quintessence" class="img-fluid">
                 </div>
               </a>
             </div>
@@ -89,7 +89,7 @@ export default {
     Header, Footer
   },
   created(){
-    document.title = 'Photo Gallery | GQ Membership'
+    document.title = 'Photo Gallery | Gentlemen Quintessence'
   }
 }
 </script>

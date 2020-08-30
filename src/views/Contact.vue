@@ -52,56 +52,17 @@
                         </div>
                       </form>
                     </div>
-                    <div class="mt-4">
-                      <p>Membership Form here</p>
-                      <p>Reference Form here</p>
-                      <p>Commitment Form here</p>
-                    </div>
                   </div>
                   <div class="col-md-6">
                     <div class="title-box-2 pt-4 pt-md-0">
                       <h5 class="title-left">
-                        Contact Us
+                        Membership Forms
                       </h5>
-                    </div>
-                    <div class="more-info">
-                      <p class="lead">
-                        We're always available. We would love to hear from you.
-                      </p>
-                      <ul class="list-ico">
-                        <li><span class="ion-ios-location"></span> Owo</li>
-                        <li><span class="ion-ios-telephone"></span> 
-                          <a href="tel:"></a>  
-                          <a href="tel:"></a>
-                        </li>
-                        <li><span class="ion-email"></span> 
-                          <a href="#">youremail@gmail.com</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="socials">
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <span class="ico-circle"><i class="ion-social-facebook"></i></span>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <span class="ico-circle"><i class="fa fa-instagram"></i></span>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <span class="ico-circle"><i class="ion-social-twitter"></i></span>
-                          </a>
-                        </li>
-                      </ul>
-                    </div><hr>
-                    <div class="footer-copyright text-center mt-4">
-                      Copyright &copy; <span id="year"></span> All rights reserved. Website Crafted with 
-                      <i class="fa fa-heart-o" aria-hidden="true"></i> by 
-                      <a href="https://eben.com.ng" style="color: #be3131" title="Ebenezer Oladutemu" target="_blank"><b>Eben</b></a>
+                      <div class="mt-forms">
+                        <p>Membership Form here</p>
+                        <p>Reference Form here</p>
+                        <p>Commitment Form here</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -111,22 +72,29 @@
         </div>
       </div>
     </section>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export default {
   components:{
-    Header
+    Header, Footer
   },
   created(){
-    document.title = 'Contact Us | GQ Membership'
+    document.title = 'Contact Us | Gentlemen Quintessence'
   }
 }
 </script>
 
-<style>
-
+<style scoped>
+.mt-forms{
+  margin-top: 2.8rem;
+}
+.footer-paralax{
+  padding: 0;
+}
 </style>

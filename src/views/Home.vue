@@ -19,7 +19,7 @@ export default {
     Header, Intro, Footer
   },
   created(){
-    document.title = 'Home | GQ Membership'
+    document.title = 'Home | Gentlemen Quintessence'
   }
 }
 </script>
