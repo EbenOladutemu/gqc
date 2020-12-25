@@ -21,27 +21,27 @@
         <div class="row">
           <div class="col-md-4">
             <div class="work-box">
-              <a href="https://picsum.photos/500/500" data-lightbox="gallery-mf">
+              <a href="/img/Image-2020-11-17_2.36449991.jpeg" data-lightbox="gallery-mf">
                 <div class="work-img">
-                  <img src="https://picsum.photos/500/500" alt="Gentlemen Quintessence" class="img-fluid">
+                  <img src="./../assets/img/members/Image-2020-11-17_2.jpeg" alt="Gentlemen Quintessence" class="img-fluid">
                 </div>
               </a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="https://picsum.photos/500/500" data-lightbox="gallery-mf">
+              <a href="/img/Image-2020-07-28_3.3b78ef05.jpeg" data-lightbox="gallery-mf">
                 <div class="work-img">
-                  <img src="https://picsum.photos/500/500" alt="Gentlemen Quintessence" class="img-fluid">
+                  <img src="./../assets/img/members/Image-2020-07-28_3.jpeg" alt="Gentlemen Quintessence" class="img-fluid">
                 </div>
               </a>
             </div>
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="https://picsum.photos/500/500" data-lightbox="gallery-mf">
+              <a href="/img/Image-2020-11-17_3.ab1ec956.jpeg" data-lightbox="gallery-mf">
                 <div class="work-img">
-                  <img src="https://picsum.photos/500/500" alt="Gentlemen Quintessence" class="img-fluid">
+                  <img src="./../assets/img/members/Image-2020-11-17_3.jpeg" alt="Gentlemen Quintessence" class="img-fluid">
                 </div>
               </a>
             </div>

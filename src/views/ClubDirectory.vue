@@ -22,11 +22,11 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <img src="https://picsum.photos/150/150" class="d-block mx-auto" alt="GQ Member">
+                <img src="https://picsum.photos/150/150" class="d-block mx-auto br-10" alt="GQ Member">
               </div>
               <div class="service-content">
                 <h2 class="s-title">GQ Oba Ajibade Gbadegesin</h2>
-                <p>&nbsp;&nbsp;</p>
+                <p class="v-hidden">Nothing here</p>
                 <!-- <p class="s-description text-center">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
                   provident vitae! Magni
@@ -38,7 +38,7 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <img src="https://picsum.photos/150/150" class="d-block mx-auto" alt="GQ Member">
+                <img src="https://picsum.photos/150/150" class="d-block mx-auto br-10" alt="GQ Member">
               </div>
               <div class="service-content">
                 <h2 class="s-title">GQ Chief Abiodun Obajuluwa</h2>
@@ -51,7 +51,7 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <img src="https://picsum.photos/150/150" class="d-block mx-auto" alt="GQ Member">
+                <img src="https://picsum.photos/150/150" class="d-block mx-auto br-10" alt="GQ Member">
               </div>
               <div class="service-content">
                 <h2 class="s-title">GQ Olatoye Famakinwa General</h2>
@@ -64,7 +64,7 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <img src="https://picsum.photos/150/150" class="d-block mx-auto" alt="GQ Member">
+                <img src="https://picsum.photos/150/150" class="d-block mx-auto br-10" alt="GQ Member">
               </div>
               <div class="service-content">
                 <h2 class="s-title">GQ Olugbenga Michael</h2>
@@ -77,18 +77,18 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <img src="https://picsum.photos/150/150" class="d-block mx-auto" alt="GQ Member">
+                <img src="https://picsum.photos/150/150" class="d-block mx-auto br-10" alt="GQ Member">
               </div>
               <div class="service-content">
                 <h2 class="s-title">GQ Adebo Ogunoye</h2>
               </div>
-              <p>&nbsp;</p>
+              <p class="v-hidden">Nothing</p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="service-box" style="padding-bottom: 3.3rem;">
               <div class="service-ico">
-                <img src="https://picsum.photos/150/150" class="d-block mx-auto" alt="GQ Member">
+                <img src="https://picsum.photos/150/150" class="d-block mx-auto br-10" alt="GQ Member">
               </div>
               <div class="service-content">
                 <h2 class="s-title">GQ Adedayo Sikiru Hassan</h2>
@@ -120,5 +120,11 @@ export default {
 .bg-image{
   background-image: url('./../assets/img/members/Image-2020-11-29_2.jpeg');
   background-position: top;
+}
+.v-hidden{
+  visibility: hidden;
+}
+.br-10{
+  border-radius: 10px;
 }
 </style>

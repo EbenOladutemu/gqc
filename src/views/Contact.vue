@@ -91,6 +91,9 @@ export default {
 </script>
 
 <style scoped>
+.bg-image{
+  background-image: url('./../assets/img/telephone.jpg');
+}
 .mt-forms{
   margin-top: 2.8rem;
 }

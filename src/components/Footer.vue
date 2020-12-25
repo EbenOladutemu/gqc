@@ -7,7 +7,7 @@
             <ul class="list-ico">
               <!-- <li><span class="ion-ios-location"></span> Owo</li> -->
               <li><span class="ion-ios-telephone"></span> 
-                <a href="tel:">081000000</a>
+                <a href="tel:">0810 000 000</a>
               </li>
               <li><span class="ion-email"></span> 
                 <a href="#">youremail@gmail.com</a>
