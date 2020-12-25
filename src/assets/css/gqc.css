@@ -19,3 +19,7 @@
 	border-color: #fb6d6e;
 	box-shadow: 0 0 0 0.1rem #fd8989;
 }
+
+.intro .overlay-intro{
+	opacity: .6;
+}

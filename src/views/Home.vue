@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Header>
+    <Header class="bg-image">
       <h6 slot="heading" class="intro-title mb-4 mt-4">Home</h6>
     </Header>
     <Intro/>
@@ -23,3 +23,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.bg-image{
+  background-image: url('./../assets/img/members/Image-2020-11-29.jpeg');
+}
+</style>

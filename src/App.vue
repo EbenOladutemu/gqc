@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Nav/>
-    <transition>
+    <transition name="animate" enter-active-class="animated fadeIn" leave-active-class="animate__delay-2s" mode="out-in">
       <router-view/>
     </transition>
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -63,6 +63,10 @@ export default {
 <style lang="scss">
 html{
   scroll-behavior: smooth;
+}
+
+.typed-cursor{
+  margin-bottom: 1rem;
 }
 .intro .intro-title{
   font-size: 1.5rem!important;

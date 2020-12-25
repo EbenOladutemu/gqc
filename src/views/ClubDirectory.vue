@@ -116,6 +116,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.bg-image{
+  background-image: url('./../assets/img/members/Image-2020-11-29_2.jpeg');
+  background-position: top;
+}
 </style>

@@ -19,7 +19,7 @@
             <router-link class="nav-link js-scroll" active-class="active" to="about">About</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link js-scroll" active-class="active" to="#">News</router-link>
+            <router-link class="nav-link js-scroll" active-class="active" to="news">News</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link js-scroll" active-class="active" to="club-directory">Club Directory</router-link>

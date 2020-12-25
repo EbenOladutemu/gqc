@@ -61,5 +61,7 @@ export default {
 </script>
 
 <style scoped>
-
+.bg-image{
+  background-image: url('./../assets/img/members/Image-2020-07-28.jpeg');
+}
 </style>

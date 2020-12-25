@@ -1,12 +1,12 @@
 <template>
   <div id="home" class="intro route bg-image">
-    <div class="overlay-itro"></div>
+    <div class="overlay-intro"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
           <p class="intro-subtitle">
-            <vue-typed-js :strings="['Gentlemen Quintessence', 'Owo']" :backSpeed="50" :loop="true">
+            <vue-typed-js :strings="['Gentlemen', 'Quintessence', 'Owo']" :backSpeed="50" :loop="true">
               <h1 class="typing"></h1>
             </vue-typed-js>
           </p>
@@ -46,7 +46,13 @@ export default {
 
 @media (max-width: 768px){
   .typing{
-    font-size: 3.5rem!important;
+    font-size: 3rem!important;
+  }
+}
+
+@media (max-width: 320px){
+  .typing{
+    font-size: 2.8rem!important;
   }
 }
 </style>
